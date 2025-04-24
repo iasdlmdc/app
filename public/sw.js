@@ -2,11 +2,11 @@
 /* eslint-disable no-restricted-globals */
 const CACHE_NAME = 'linktree-pwa-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/icon-192x192.png',
-  '/icon-512x512.png'
+  './',
+  './index.html',
+  './manifest.json',
+  './icon-192x192.png',
+  './icon-512x512.png'
 ];
 
 addEventListener('install', event => {

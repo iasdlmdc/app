@@ -3,12 +3,12 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/icon-192x192.png" />
+    <link rel="icon" type="image/png" href="./icon-192x192.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#FF6B6B" />
     <meta name="description" content="Acesse meu Linktree" />
-    <link rel="apple-touch-icon" href="/icon-192x192.png" />
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="./icon-192x192.png" />
+    <link rel="manifest" href="./manifest.json" />
     <title>Meu Linktree</title>
   </head>
   <body>
@@ -17,7 +17,7 @@
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js')
+          navigator.serviceWorker.register('./sw.js')
             .then(registration => {
               console.log('SW registered:', registration);
             })
